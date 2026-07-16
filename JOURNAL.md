@@ -14,13 +14,19 @@
 
 
 
+\*\*Selection reasoning:\*\*
+
+Picked a Tier 1 problem since it is the skill level that seems adequate for me. It deals with seemingly one component, the readme\_scorer.py and the given logic. A higher tier would likely be more involvement of files that rely on one another, which appears far more difficult than I might be able to manage at the moment. This is also a very realistic example where one would have to search for the cause of a "perfect" test file failing and the cause not being the actual behavior but another asserted aspect.
+
+
+
 \*\*Problem summary:\*\*
 
 The test\_readme\_with\_all\_quality\_signals in the tests for the readme\_scorer.py has it set that the word count of the README would be over 100 words in length \[line: assert data\["word\_count"] > 100], but the current fixture README only has 52 and the test is failing even though its behavior being tested beside that works. Basically the README test is failing the README because it has smaller word count than assumed and not because the README is incorrect in any other fashion. A successful fix would allow for the README scorer to work properly as long as the README is not empty.
 
 
 
-\*\*Branch name:\*\* \[paste branch name here]
+\*\*Branch name:\*\* fix/156-readme-scorer-fixture
 
 
 
