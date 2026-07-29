@@ -46,7 +46,7 @@ The test\_readme\_with\_all\_quality\_signals in the tests for the readme\_score
 
 
 
-\*\*Reproduction commit link:\*\* \[link to commit documenting the reproduced issue]
+\*\*Reproduction commit link:\*\* https://github.com/Cristina-Adame/pathreview/commit/af2b33ae77174ed0458f0b4933df1de57c2088bd 
 
 
 
@@ -66,15 +66,14 @@ Confirms that the README has 51 words but the assertion expects more than 100, c
 
 
 
-\*\*PLAN.md link:\*\* \[link to PLAN.md in your fork]
+\*\*PLAN.md link:\*\* https://github.com/Cristina-Adame/pathreview/blob/fix/156-readme-scorer-fixture/PLAN.md
 
 
 
-\*\*Walkthrough video (recommended):\*\* \[link to your Loom video, ≤2 min — recommended, not graded]
+\*\*Walkthrough video (recommended):\*\* N/A
 
 
 
 \*\*Blockers or open questions:\*\*
 
-\[Anything you're still uncertain about going into Week 9, or leave blank]
 
