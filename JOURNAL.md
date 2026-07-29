@@ -36,3 +36,45 @@ The test\_readme\_with\_all\_quality\_signals in the tests for the readme\_score
 
 \*\*Cohort ledger:\*\* \[X] Issue added to cohort ledger
 
+
+
+
+
+
+
+\## Week 8 — Reproduction \& solution planning
+
+
+
+\*\*Reproduction commit link:\*\* \[link to commit documenting the reproduced issue]
+
+
+
+\*\*Reproduction summary:\*\*
+
+Ran the command "pytest tests/unit/test\_readme\_scorer.py -q" on my branch and saw the failure:
+
+```
+
+FAILED tests/unit/test\_readme\_scorer.py::TestReadmeScorer::test\_readme\_with\_all\_quality\_signals - assert 51 > 100
+
+
+
+```
+
+Confirms that the README has 51 words but the assertion expects more than 100, causing it to fail. This is failing even though the other README requirements/assertions are met.
+
+
+
+\*\*PLAN.md link:\*\* \[link to PLAN.md in your fork]
+
+
+
+\*\*Walkthrough video (recommended):\*\* \[link to your Loom video, ≤2 min — recommended, not graded]
+
+
+
+\*\*Blockers or open questions:\*\*
+
+\[Anything you're still uncertain about going into Week 9, or leave blank]
+
