@@ -77,3 +77,36 @@ Confirms that the README has 51 words but the assertion expects more than 100, c
 \*\*Blockers or open questions:\*\*
 
 
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+Implemented the expanded string README fixture to >500 words. All 23 unit test pass now.
+
+**Next steps:**
+Opening the draft PR, getting feedback, and marking as ready for review.
+
+**Blockers:** none
+
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/ascherj/pathreview/pull/739
+
+**Branch:** fix/156-readme-scorer-fixture
+
+**What you built:**
+Expanded the README string fixture in 'test_readme_with_all_quality_signals' to
+exceed 500 words by adding sections. This fixes the problem by expanding the README string fixture to >500 words to match the comprehensive assertion of >500 and the word count assertion of >100.
+
+**Tests added or updated:**
+[Which test files did you touch? What do they cover?]
+'tests/unit/test_readme_scorer.py' by expanding the README string fixture in 'test_readme_with_all_quality_signals'. Fixes 2 assertions: "word\_count"] > 100 and word_count_category == "comprehensive".
+
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+
+**Draft PR feedback received from:** none
