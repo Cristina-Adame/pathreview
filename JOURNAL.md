@@ -110,3 +110,36 @@ exceed 500 words by adding sections. This fixes the problem by expanding the REA
 **Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** none
+
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+No review.
+
+**How you responded:**
+N/A
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+Hardest part was likely just selecting a problem and then trying to navigate to the appropriate files within the codebase. Knowing where to look and understanding how the files
+related to each other took more time than the actual fix.
+
+**What did you learn about working in a large codebase?**
+Learned that there is a lot to think about when trying to make a branch or push a fix. More tedious and more to consider rather than your own individual work. In a personal codebase the design can change often but it is not polite to go around changing the intended design of someone else's codebase.
+
+**How did AI tools help — and where did they fall short?**
+The selection of the problem was greatly influenced by Claude. Claude asked questions to gauge my skill level and suggested problems accordingly. Going beyond Claude was to consider which type of fix would be best for the specific problem. If expanding the fixture or changing the assertion.
+
+**What would you do differently if you started over?**
+If starting over, I likely would have picked a more challenging issue to do for the project. This issue was very straightforward and had a simple fix. It is not a true example of what working on code in real life could be like.
+
+**What are you most proud of from this module?**
+Probably that I got more acquainted with Git and GitHub. I didn't have much experience coming in and this forced me to do different things with branches and commits that I had never done before. I now have a better intuition when navigating through those tools.
